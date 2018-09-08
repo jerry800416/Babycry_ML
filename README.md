@@ -1,5 +1,7 @@
 <h1>偵測聲音分類器 ＆ OpenCV動作偵測</h1><br>
 <br>
+<br>運行環境:Ubuntu16.04LTS
+<br>
 <h3>聲音種類:男性說話聲、女性說話聲、寶寶哭聲、狗叫聲、貓叫聲</h3><br>
 <br>
 <h5>目前困難:</h5><br>
@@ -70,4 +72,3 @@ record.py:錄音function<br>
 3.python3 demo.py<br>
 <br>
 <br>
-
