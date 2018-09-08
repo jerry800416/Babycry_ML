@@ -4,6 +4,13 @@
 <br>
 聲音種類:男性說話聲、女性說話聲、寶寶哭聲、狗叫聲、貓叫聲<br>
 <br>
+<br>
+<h3>使用方法:</h3><br>
+1.請先安裝完OpenCV3.4.1版,可參考這篇:https://1drv.ms/w/s!AqSCQ8Yo16yIga8Y5kcYJT8Yu_6gZg<br>
+2.pip3 install -r requirements.txt<br>
+3.python3 demo.py<br>
+<br>
+<br>
 <h3>目前問題:</h3><br>
 1.狗叫聲無法很好的分辨,所以demo.py裡不顯示<br>
 2.寶寶哭聲和貓叫聲無法很好的分辨,所以demo.py裡面不顯示貓叫聲<br>
@@ -49,12 +56,5 @@ demo.py:演示用檔案(請開啟這隻檔案)<br>
 noise_filter:降噪function(譜減法)<br>
 preprocess.py:資料處理的function<br>
 record.py:錄音function<br>
-<br>
-<br>
-<h3>使用方法:</h3><br>
-1.請先安裝完OpenCV3.4.1版<br>
-可參考這篇:https://1drv.ms/w/s!AqSCQ8Yo16yIga8Y5kcYJT8Yu_6gZg<br>
-2.pip3 install -r requirements.txt<br>
-3.python3 demo.py<br>
 <br>
 <br>
