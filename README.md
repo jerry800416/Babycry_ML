@@ -52,7 +52,7 @@ trueTest資料夾:demo.py錄音的檔案存放處<br>
 demo.py:演示用檔案(請開啟這隻檔案)<br>
 <br>
 <br>
-<h3>核心funcction檔案(import):</h3><br>
+<h3>核心function檔案(import):</h3><br>
 noise_filter:降噪function(譜減法)<br>
 preprocess.py:資料處理的function<br>
 record.py:錄音function<br>
