@@ -10,11 +10,15 @@
 5.譜減法降噪使用因環境而異,不太穩定,請斟酌是否要打開
 
 
+
+
 收集與產生資料相關的檔案:
 cancleNoise.py:用來讓原本的檔案直接降噪後產生新的檔案(開發測試用)
 make_data:用來讓原本的檔案錄製產生新的含噪音的檔案
 noise_data.py::用來讓原本的檔案錄製後在經過降噪處理產生新的檔案
 playsound.py:循環播放音頻檔案
+
+
 
 
 資料處理與訊號處理相關的檔案:
@@ -26,10 +30,14 @@ rename.py:檔案批量改名
 sounddraw.py:讀取音頻檔案繪製三維頻譜圖
 
 
+
+
 訓練相關檔案:
 traindata資料夾:訓練資料存放處
 makeLabel_trainModel:將訓練資料集貼標籤以及traininig model(使用CNN)
 RNN.py:使用RNN訓練資料集
+
+
 
 
 測試model相關檔案:
@@ -38,15 +46,21 @@ predict.py:訓練完model測試model準確度的檔案
 test.py:訓練完model直接開啟錄音測試的檔案
 
 
+
+
 完成品+lineBot+OpenCV動作偵測:
 trueTest資料夾:demo.py錄音的檔案存放處
 demo.py:演示用檔案(請開啟這隻檔案)
+
+
 
 
 核心funcction檔案(import):
 noise_filter:降噪function(譜減法)
 preprocess.py:資料處理的function
 record.py:錄音function
+
+
 
 
 使用方法:
