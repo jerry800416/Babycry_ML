@@ -1,10 +1,10 @@
 <h1>偵測聲音分類器 ＆ OpenCV動作偵測</h1><br>
 <br>
-<br>運行環境:Ubuntu16.04LTS
+運行環境:Ubuntu16.04LTS<br>
 <br>
-<h3>聲音種類:男性說話聲、女性說話聲、寶寶哭聲、狗叫聲、貓叫聲</h3><br>
+聲音種類:男性說話聲、女性說話聲、寶寶哭聲、狗叫聲、貓叫聲<br>
 <br>
-<h5>目前困難:</h5><br>
+<h3>目前困難:</h3><br>
 1.狗叫聲無法很好的分辨,所以demo.py裡不顯示<br>
 2.寶寶哭聲和貓叫聲無法很好的分辨,所以demo.py裡面不顯示貓叫聲<br>
 3.混合的音頻無法很好的辨識<br>
@@ -14,7 +14,7 @@
 <br>
 <br>
 <br>
-<h5>收集與產生資料相關的檔案:</h5><br>
+<h3>收集與產生資料相關的檔案:</h3><br>
 cancleNoise.py:用來讓原本的檔案直接降噪後產生新的檔案(開發測試用)<br>
 make_data:用來讓原本的檔案錄製產生新的含噪音的檔案<br>
 noise_data.py::用來讓原本的檔案錄製後在經過降噪處理產生新的檔案<br>
@@ -23,7 +23,7 @@ playsound.py:循環播放音頻檔案<br>
 <br>
 <br>
 <br>
-<h5>資料處理與訊號處理相關的檔案:</h5><br>
+<h3>資料處理與訊號處理相關的檔案:</h3><br>
 classifire.py: 當初網路上下載的檔案全部混雜在一起,只有用csv檔案做分類依據,這支檔案可以將每個不同的音頻建立個資資料夾並分類好<br>
 generater.py:用來產生高低頻率的聲音(開發測試用)<br>
 dbtest.py:用來測試頻率的檔案<br>
@@ -34,7 +34,7 @@ sounddraw.py:讀取音頻檔案繪製三維頻譜圖<br>
 <br>
 <br>
 <br>
-<h5>訓練相關檔案:</h5><br>
+<h3>訓練相關檔案:</h3><br>
 traindata資料夾:訓練資料存放處<br>
 makeLabel_trainModel:將訓練資料集貼標籤以及traininig model(使用CNN)<br>
 RNN.py:使用RNN訓練資料集<br>
@@ -42,7 +42,7 @@ RNN.py:使用RNN訓練資料集<br>
 <br>
 <br>
 <br>
-<h5>測試model相關檔案:</h5><br>
+<h3>測試model相關檔案:</h3><br>
 testdata資料夾:測試資料存放處<br>
 predict.py:訓練完model測試model準確度的檔案<br>
 test.py:訓練完model直接開啟錄音測試的檔案<br>
@@ -50,14 +50,14 @@ test.py:訓練完model直接開啟錄音測試的檔案<br>
 <br>
 <br>
 <br>
-<h5>完成品+lineBot+OpenCV動作偵測:</h5><br>
+<h3>完成品+lineBot+OpenCV動作偵測:</h3><br>
 trueTest資料夾:demo.py錄音的檔案存放處<br>
 demo.py:演示用檔案(請開啟這隻檔案)<br>
 <br>
 <br>
 <br>
 <br>
-<h5>核心funcction檔案(import):</h5><br>
+<h3>核心funcction檔案(import):</h3><br>
 noise_filter:降噪function(譜減法)<br>
 preprocess.py:資料處理的function<br>
 record.py:錄音function<br>
@@ -65,7 +65,7 @@ record.py:錄音function<br>
 <br>
 <br>
 <br>
-<h5>使用方法:</h5><br>
+<h3>使用方法:</h3><br>
 1.請先安裝完OpenCV3.4.1版<br>
 可參考這篇:https://1drv.ms/w/s!AqSCQ8Yo16yIga8Y5kcYJT8Yu_6gZg<br>
 2.pip3 install -r requirements.txt<br>
